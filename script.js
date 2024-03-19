@@ -3,7 +3,7 @@
 const { pickPlanet, addDestinationInfo } = require("./scriptHelper");
 
 window.addEventListener("load", function () {
-    // alert("All fields required")
+    alert("All fields required")
     let listedPlanets;
     let listedPlanetsResponse = myFetch();
 
